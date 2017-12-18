@@ -3,6 +3,6 @@
     "remote":       "github",
     "repository":   "dani020110/kernel",
     "target_path":  "kernel/sony/tulip",
-    "revision":     "twrp"
+    "revision":     "twrp_1.3.7"
   }
 ]
