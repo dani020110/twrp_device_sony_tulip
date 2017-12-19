@@ -34,7 +34,8 @@ BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset $(BOARD_RAMD
 BOARD_CUSTOM_BOOTIMG_MK := device/sony/tulip/mkbootimg.mk
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
-TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linaro-linux-android-
+KERNEL_TOOLCHAIN := /media/DATOS/desarrollo/toolchain/gcc-prebuilts/bin/
 BOARD_KERNEL_IMAGE_NAME := Image
 
 # Partitions
